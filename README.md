@@ -5,7 +5,7 @@
 Intoduction to version control using git and github
 
 ### Description
-Describe what your project is about and what it does
+This project is on the use of version control
 
 ### Files used
 3 csv files: chicago.csv, washington.csv,new_york_city.csv
