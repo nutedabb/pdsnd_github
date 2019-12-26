@@ -74,7 +74,7 @@ def load_data(city, month, day):
         
 
 def show_data(df):
-    # this function shows a certain amount of table
+    """ Displays a certain number of rows  desired by the user. """
     showmore = 'yes'
     dont = 'no'
     y = 5
