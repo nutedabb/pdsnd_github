@@ -74,23 +74,24 @@ def load_data(city, month, day):
         
 
 def show_data(df):
+    """ Displays a certain number of rows  desired by the user. """
     showmore = 'yes'
     dont = 'no'
     y = 5
     try:
-        liness = input('Do you want to see 5 lines of raw data, yes or no')
+        lines = input('Do you want to see 5 lines of raw data, yes or no')
         
         while True:
             
-            liness = liness.lower()
-            if liness =='yes':
+            lines = lines.lower()
+            if lines =='yes':
                 
                 hh =df.head(y)
             
                 print(hh)
             x = input("\n show more lines? type : yes or no ::")
             if x.lower() == showmore:
-                y = y + 10
+                y = y + 5
                 
                 
                
